@@ -62,7 +62,7 @@ const ExpenseForm = (props) => {
         const expenseData = {
             //these are pointing to the state varibles
             title: enteredTitle,
-            amount: enteredAmount,
+            amount: +enteredAmount,
             date: new Date(enteredDate)
         }
 
